@@ -18,6 +18,10 @@ def position_taken?(board, index)
   end
 end
 
+def input_to_index(userInput)
+  index = userInput-1
+end
+
 def valid_move?(board, index)
   if position_taken?(board, index)
     false
