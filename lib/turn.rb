@@ -19,7 +19,7 @@ def position_taken?(board, index)
 end
 
 def input_to_index(userInput)
-  index = userInput-1
+  index = userInput.to_i-1
 end
 
 def valid_move?(board, index)
